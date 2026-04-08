@@ -1,0 +1,291 @@
+body {
+
+margin:0;
+font-family:Arial, sans-serif;
+background:#0f172a;
+color:white;
+
+}
+
+/* HEADER */
+
+header {
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px;
+background:#020617;
+flex-wrap:wrap;
+
+}
+
+.logo {
+
+width:60px;
+
+}
+
+.logo-section {
+
+display:flex;
+align-items:center;
+gap:10px;
+
+}
+
+nav a {
+
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+nav a:hover {
+
+color:#f97316;
+
+}
+
+/* HERO */
+
+.hero {
+
+text-align:center;
+padding:70px 20px;
+background:linear-gradient(90deg,#1e3a8a,#9333ea);
+
+}
+
+.highlight {
+
+color:#f97316;
+font-weight:bold;
+
+}
+
+.btn {
+
+background:#f97316;
+padding:12px 25px;
+color:white;
+border-radius:8px;
+text-decoration:none;
+display:inline-block;
+margin-top:15px;
+
+}
+
+.btn:hover {
+
+background:#ea580c;
+
+}
+
+/* ABOUT */
+
+.about {
+
+padding:50px 20px;
+background:#020617;
+text-align:center;
+
+}
+
+.about-container {
+
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:center;
+gap:30px;
+
+}
+
+.about-text {
+
+max-width:500px;
+text-align:left;
+line-height:1.6;
+
+}
+
+.about-image img {
+
+width:300px;
+border-radius:12px;
+
+}
+
+/* SERVICES */
+
+.services {
+
+padding:50px 20px;
+text-align:center;
+
+}
+
+.cards {
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+
+}
+
+.card {
+
+background:#1e293b;
+padding:20px;
+border-radius:12px;
+transition:0.3s;
+
+}
+
+.card:hover {
+
+background:#334155;
+transform:scale(1.05);
+
+}
+
+/* GALLERY */
+
+.gallery {
+
+padding:50px 20px;
+text-align:center;
+
+}
+
+.gallery-grid {
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+
+}
+
+.gallery img {
+
+width:100%;
+border-radius:10px;
+transition:0.3s;
+
+}
+
+.gallery img:hover {
+
+transform:scale(1.05);
+
+}
+
+/* REGISTER */
+
+.register {
+
+padding:50px 20px;
+text-align:center;
+
+}
+
+.register input {
+
+display:block;
+margin:10px auto;
+padding:12px;
+width:80%;
+max-width:320px;
+border-radius:8px;
+border:none;
+
+}
+
+.register button {
+
+padding:12px 25px;
+background:#22c55e;
+border:none;
+border-radius:8px;
+color:white;
+cursor:pointer;
+
+}
+
+.register button:hover {
+
+background:#16a34a;
+
+}
+
+/* MAP */
+
+.map iframe {
+
+width:100%;
+height:300px;
+border:none;
+
+}
+
+/* CONTACT */
+
+.contact {
+
+padding:40px;
+text-align:center;
+
+}
+
+/* WHATSAPP */
+
+.whatsapp {
+
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:24px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+
+}
+
+/* FOOTER */
+
+footer {
+
+text-align:center;
+padding:15px;
+background:black;
+
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+.about-container {
+
+flex-direction:column;
+
+}
+
+.about-text {
+
+text-align:center;
+
+}
+
+.about-image img {
+
+width:90%;
+
+}
+
+}
